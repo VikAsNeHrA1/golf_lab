@@ -139,13 +139,13 @@ footer {
   color: white;
   padding: 1rem;
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 25rem;
 }
 
 .footer-links {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: auto;
 }
 
 .footer-links a {
