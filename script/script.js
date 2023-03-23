@@ -1,38 +1,3 @@
-//script file
-
-// const links = document.querySelectorAll('a'); // get all the links on the page
-
-// links.forEach(link => {
-//   link.addEventListener('click', () => {
-//     console.log(`Link clicked: ${link.href}`); // log the href attribute of the clicked link
-//   });
-// });
-
-// function log() {
-//     console.log('Clicked');
-//   };
-//   <button onclick="log()">Click me!</button>
-
-// console.log('https://vikasnehra1.github.io/CharlieLab/');
-
-
-//script file
-
-// const links = document.querySelectorAll('a'); // get all the links on the page
-
-// links.forEach(link => {
-//   link.addEventListener('click', () => {
-//     console.log(`Link clicked: ${link.href}`); // log the href attribute of the clicked link
-//   });
-// });
-
-// function log() {
-//     console.log('Clicked');
-//   };
-//   <button onclick="log()">Click me!</button>
-
-// console.log('https://vikasnehra1.github.io/CharlieLab/');
-
 const data = [
     { 
       url: "https://vikasnehra1.github.io/CharlieLab/",
@@ -120,28 +85,32 @@ const data = [
 
 
   ];
+
+console.log("data: ", data)
   
-  const container = document.getElementById("myContainer");
+const container = document.getElementById("gameDiv");
+
+// $(')
+
+data.forEach(item => {
+  const gameDiv = document.createElement("div");
+  gameDiv.className = "game"; //does nothing cuz no class named game
   
-  data.forEach(item => {
-    const gameDiv = document.createElement("div");
-    gameDiv.className = "game";
-    
-    const link = document.createElement("a");
-    link.href = item.url;
-    link.target = "_blank";
-    
-    const img = document.createElement("img");
-    img.src = item.imgSrc;
-    img.alt = item.altText;
-    img.title = item.titleText;
-    
-    const p = document.createElement("p");
-    p.textContent = item.description;
-    
-    link.appendChild(img);
-    link.appendChild(p);
-    gameDiv.appendChild(link);
-    container.appendChild(gameDiv);
-  });
+  const link = document.createElement("a");
+  link.href = item.url;
+  link.target = "_blank";
+  
+  const img = document.createElement("img");
+  img.src = item.imgSrc;
+  img.alt = item.altText;
+  img.title = item.titleText;
+  
+  const p = document.createElement("p");
+  p.textContent = item.titleText;
+  
+  link.appendChild(img);
+  link.appendChild(p);
+  gameDiv.appendChild(link);
+  container.appendChild(gameDiv);
+});
   
