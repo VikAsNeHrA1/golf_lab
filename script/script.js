@@ -117,6 +117,35 @@ const data = [
         altText: "Cookie Monster Game",
         titleText: "Cookie Monster Cookie Game",
       },
+    
+     {
+        url: "https://anhnguyen148.github.io/echolab/",
+        imgSrc: "https://anhnguyen148.github.io/echolab/assets/astronaul.png",
+        altText: "Astronaul Game",
+        titleText: "Astronaul Game",
+      },
+
+     {
+        url: "https://anhnguyen148.github.io/dogegamev2/",
+        imgSrc: "https://anhnguyen148.github.io/dogegamev2/assets/Doge-meme.jpg",
+        altText: "Doge Meme Game",
+        titleText: "Doge Meme Game",
+      },
+
+     {
+        url: "https://stokeybear.github.io/DeltaLab/",
+        imgSrc: "https://www.shutterstock.com/image-vector/vector-illustration-face-cute-lion-260nw-1787955260.jpg",
+        altText: "The Stokeybear Name Game",
+        titleText: "The Stokeybear Name Game",
+      },
+
+     {
+        url: "https://junnoiri.github.io/cis-376-CHARLIE-lab/",
+        imgSrc: "https://junnoiri.github.io/cis-376-CHARLIE-lab/img/Shiba-Inu-img.jpeg,
+        altText: "Junnoiri Doge Game",
+        titleText: "Junnoiri Doge Game",
+      },
+
 
 
   ];
